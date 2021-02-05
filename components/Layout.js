@@ -2,12 +2,12 @@ import Head from "next/head"
 import Header from './Header.tsx'
 const Layout = (props) => {
   const { title, children } = props
-  const siteTitle = "コダック"
+  const siteTitle = "kodakku.com"
   return (
     <div className="page w-full ">
       <Head>
         <title>{title ? `${title} | ${siteTitle}` : siteTitle}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/profile.png" />
       </Head>
       <header className="shadow bg-white w-full fixed h-12 	z-10 -mt-20">
         <Header />

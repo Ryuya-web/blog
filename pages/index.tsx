@@ -3,18 +3,39 @@ import Link from "next/link"
 import Layout from "../components/Layout"
 import { readContentFiles } from "../lib/content-loader"
 import { GetStaticProps } from 'next'
+import {GithubIcon,TwitterIcon,EmailIcon,ProfileIcon} from "../components/icons"
 export default function Home(props) {
   const { posts, hasArchive } = props
 
   return (
     <Layout title="">
       <div>
+      <Link href="/about">
+      <img src="/images/profile.png" width={200} height={200} className="mt-20 mx-auto rounded-full"/>
+      </Link>
+      <Link href="/about">
+      <h2 className="text-center text-3xl mr-3">コダック</h2>
+      </Link>
+      <div className="flex justify-center">
+      <div className="mr-4 mt-3">
+      <ProfileIcon href="https://github.com/Ryuya-web">
+      <GithubIcon size={80} />
+      </ProfileIcon>
+      </div>
+      <div className="mr-5">
+      <ProfileIcon href="https://twitter.com/himajin_de_su?s=20">
+      <TwitterIcon size={80}/>
+      </ProfileIcon>
+      </div>
+      <div className="mr-5 mt-1">
+      <EmailIcon size={70}/>
+      </div>
+      </div>
       {posts.map((post) => <div
         key={post.slug}
         className="h-auto"
       >
-        
-        <div className="md:w-6/12 w-6/12 text-center border-black mx-auto border-2 mt-20 w-9/12 ">
+        <div className="md:w-6/12 w-6/12 text-center  border-light-blue-500 mx-auto border-4 mt-20 w-9/12 rounded-lg  border-opacity-75 shadow-xl">
         <Link href="/posts/[id]" as={`/posts/${post.slug}`}><a>
         <img src={post.images} className="w-9/12 h-60 md:h-80 mx-auto" /> 
         <div>{post.title}</div>
