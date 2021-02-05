@@ -31,6 +31,10 @@ export default function Home(props) {
       <EmailIcon size={70}/>
       </div>
       </div>
+      <h2 className="text-center text-5xl mr-3 mt-5">Blog</h2>
+      <div>
+      <div className="border-blue-400 border-2 w-16 mr-auto ml-auto  mt-7"></div>
+      </div>
       {posts.map((post) => <div
         key={post.slug}
         className="h-auto"
