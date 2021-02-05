@@ -8,15 +8,18 @@ export default function Home(props) {
 
   return (
     <Layout title="">
+      <div>
       {posts.map((post) => <div
         key={post.slug}
         className="h-auto"
       >
-        <div className="w-9/12 text-center mx-auto h-60">
-        <img className="w-9/12 h-20" src={post.image}/>
-        <img src="static/100.png"/>
-        <h2><Link href="/posts/[id]" as={`/posts/${post.slug}`}><a>{post.title}</a></Link></h2>
+        
+        <div className="md:w-6/12 w-6/12 text-center border-black mx-auto border-2 mt-20 w-9/12 ">
+        <Link href="/posts/[id]" as={`/posts/${post.slug}`}><a>
+        <img src={post.images} className="w-9/12 h-60 md:h-80 mx-auto" /> 
+        <div>{post.title}</div>
         <div><span>{post.published}</span></div>
+        </a></Link>
         </div>
       </div>)}
       {hasArchive ? (
@@ -24,6 +27,7 @@ export default function Home(props) {
           <Link href="/archive/[page]" as="/archive/1"><a>アーカイブ</a></Link>
         </div>
       ) : ``}
+      </div>
     </Layout>
   )
 }

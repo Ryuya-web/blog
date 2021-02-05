@@ -22,7 +22,7 @@ const readContentFile = async ({ fs, slug, filename }) => {
   }
   const raw = fs.readFileSync(path.join(DIR, `${slug}${EXTENSION}`), 'utf8')
   const matterResult = matter(raw)
-  const { title, published: rawPublished } = matterResult.data
+  const { title, published: rawPublished,images} = matterResult.data
   const parsedContent = await remark()
     .use(html)
     .process(matterResult.content)
@@ -32,6 +32,7 @@ const readContentFile = async ({ fs, slug, filename }) => {
     published: formatDate(rawPublished),
     content,
     slug,
+    images,
   }
 }
 /**

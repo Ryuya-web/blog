@@ -1,22 +1,16 @@
 import Head from "next/head"
-import Link from "next/link"
-import Header from './Header'
+import Header from './Header.tsx'
 const Layout = (props) => {
   const { title, children } = props
   const siteTitle = "コダック"
   return (
-    <div className="page">
+    <div className="page w-full ">
       <Head>
         <title>{title ? `${title} | ${siteTitle}` : siteTitle}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
+      <header className="shadow bg-white w-full fixed h-12 	z-10 -mt-20">
         <Header />
-        <h1 className="site-title text-red-200">
-          <Link href="/">
-            <a>{siteTitle}</a>
-          </Link>
-        </h1>
       </header>
       <main>
         {title ? <h1 className="page-title">{title}</h1> : ``}
@@ -28,18 +22,6 @@ const Layout = (props) => {
         &copy; {siteTitle}
       </footer>
       <style jsx>{`
-        .page {
-          padding: 2em 1em;
-          max-width: 800px;
-          margin-left: auto;
-          margin-right: auto;
-        }
-        header {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin: 0 0 4em;
-        }
         .site-title a {
           color: inherit;
           text-decoration: none;
@@ -55,13 +37,6 @@ const Layout = (props) => {
       `}</style>
       <style jsx global>{`
         html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: 'Noto Sans JP', -apple-system, "Segoe UI", "Helvetica Neue",
-            "Hiragino Kaku Gothic ProN", メイリオ, meiryo, sans-serif;
-          color: #222;
-        }
         img,
         iframe {
           max-width: 100%;
