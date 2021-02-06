@@ -3,14 +3,10 @@ import React from 'react';
 const TextInput = (props) => {
     return  (
         <input
-            fullWidth={true}
-            label={props.label} 
-            margin={"dense"}
-            multiline={props.multiline}
-            row={props.rows}
             value={props.value}
             type={props.type}
             onChange={props.onChange}    
+            className="w-10 h-10  border-gray-400 border-2" 
         />
     )
 }
