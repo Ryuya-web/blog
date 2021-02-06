@@ -21,7 +21,7 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx", "pages/_app.js", "components/Layout.js"
+    "**/*.tsx", "pages/_app.js", "components/Layout.js", "lib/content-loader.js", "pages/posts/[slug].js"
   ],
   "exclude": [
     "node_modules"

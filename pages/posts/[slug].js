@@ -2,7 +2,6 @@ import fs from "fs"
 import path from "path"
 import Layout from "../../components/Layout"
 import { listContentFiles, readContentFile } from "../../lib/content-loader"
-import { GetStaticProps } from 'next'
 export default function Post(params) {
   return (
     <Layout title="">
@@ -25,7 +24,7 @@ export default function Post(params) {
 /**
  * ページコンポーネントで使用する値を用意する
  */
-export const getStaticProps: GetStaticProps = async({ params })  => {
+export async function getStaticProps({ params }) {
   const content = await readContentFile({ fs, slug: params.slug })
   return {
     props: {
