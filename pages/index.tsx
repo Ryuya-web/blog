@@ -28,7 +28,9 @@ export default function Home(props) {
       </ProfileIcon>
       </div>
       <div className="mr-5 mt-1">
+      <ProfileIcon href="/contact">
       <EmailIcon size={70}/>
+      </ProfileIcon>
       </div>
       </div>
       <h2 className="text-center text-5xl mr-3 mt-5">Blog</h2>
@@ -39,11 +41,11 @@ export default function Home(props) {
         key={post.slug}
         className="h-auto"
       >
-        <div className="md:w-6/12 w-6/12 text-center  border-light-blue-500 mx-auto border-4 mt-20 w-9/12 rounded-lg  border-opacity-75 shadow-xl">
+        <div className="md:w-4/12 text-center md:h-96 h-80 border-light-blue-500 mx-auto border-4 mt-20 w-9/12 h-96 rounded-lg  border-opacity-75 shadow-xl">
         <Link href="/posts/[id]" as={`/posts/${post.slug}`}><a>
-        <img src={post.images} className="w-9/12 h-60 md:h-80 mx-auto" /> 
-        <div>{post.title}</div>
-        <div><span>{post.published}</span></div>
+        <img src={post.images} className="w-9/12  md:h-60 mt-3 h-60 mx-auto" /> 
+        <div className="text-3xl mt-6">{post.title}</div>
+        <div className="mt-2"><span>{post.published}</span></div>
         </a></Link>
         </div>
       </div>)}

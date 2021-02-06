@@ -6,7 +6,7 @@ const TextInput = (props) => {
             value={props.value}
             type={props.type}
             onChange={props.onChange}    
-            className="w-10 h-10  border-gray-400 border-2" 
+            className="w-56 h-10  border-gray-400 border-2" 
         />
     )
 }

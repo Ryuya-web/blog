@@ -49,7 +49,7 @@ export default class ContactForm extends React.Component<Props, State> {
           method: 'POST',
           body: JSON.stringify(payload)
       }).then(() => {
-          alert('送信が完了しました。追ってご連絡します！')
+          alert('送信が完了しました! ありがとうございます！')
           this.setState({
               name: "",
               description: ""
@@ -62,22 +62,25 @@ export default class ContactForm extends React.Component<Props, State> {
       return(
         <Layout title="">
         <div className="text-center">
-          <div className="title mt-20" id="alert-dialog-title">お問い合わせフォーム</div>
+          <div className="title mt-20 text-4xl" id="alert-dialog-title">Contact</div>
           <div className="flex flex-col justify-center">
+
             <div>
+           <div className="mt-10">お名前(匿名可)</div> 
            <TextInput 
-              value={this.state.name} type={"text"} onChange={this.inputName}
+              value={this.state.name} type={"text"} onChange={this.inputName} 
            />
            </div>
            <div>
+            <div className="mt-10">コメント(気軽にどうぞ)</div>
            <TextArea 
               value={this.state.description} onChange={this.textareaDescription} 
            />
            </div>
         </div>  
-          <div className="button" onClick={this.submitForm} color="primary" >
+          <button className="button bg-blue-200 w-40 h-8 rounded-md mx-auto mt-5 text-center" onClick={this.submitForm}  >
             送信する
-          </div>
+          </button>
         </div>  
         </Layout>
       )

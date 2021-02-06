@@ -5,13 +5,20 @@ import { listContentFiles, readContentFile } from "../../lib/content-loader"
 import { GetStaticProps } from 'next'
 export default function Post(params) {
   return (
-    <Layout title={params.title}>
+    <Layout title="">
+      <div className="md:w-6/12 w-9/12 mt-20 mx-auto">
+      <div className="post-title text-3xl">
+        <span>{params.title}</span>
+      </div>
+  
       <div className="post-meta">
         <span>{params.published}</span>
       </div>
-      <div className="post-body"
+      <div className="border-blue-300 border-2 mr-auto ml-auto  mt-2"></div>
+      <div className="post-body mt-10 text-xl"
         dangerouslySetInnerHTML={{ __html: params.content }}
       />
+      </div>
     </Layout>
   )
 }

@@ -13,6 +13,7 @@ const listContentFiles = ({ fs }) => {
   return filenames
     .filter((filename) => path.parse(filename).ext === EXTENSION)
 }
+
 /**
  * Markdown のファイルの中身をパースして取得する
  */
