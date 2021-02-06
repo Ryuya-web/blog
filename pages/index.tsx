@@ -41,9 +41,9 @@ export default function Home(props) {
         key={post.slug}
         className="h-auto"
       >
-        <div className="md:w-4/12 text-center md:h-96 h-80 border-light-blue-500 mx-auto border-4 mt-20 w-9/12 h-96 rounded-lg  border-opacity-75 shadow-xl">
+        <div className="md:w-4/12 text-center md:h-96 h-80 border-light-blue-500 mx-auto border-4 mt-20 w-9/12  rounded-lg  border-opacity-75 shadow-xl">
         <Link href="/posts/[id]" as={`/posts/${post.slug}`}><a>
-        <img src={post.images} className="w-9/12  md:h-60 mt-3 h-60 mx-auto" /> 
+        <img src={post.images} className="w-9/12  md:h-60 mt-3 h-44 mx-auto" /> 
         <div className="text-3xl mt-6">{post.title}</div>
         <div className="mt-2"><span>{post.published}</span></div>
         </a></Link>

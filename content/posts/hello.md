@@ -1,5 +1,5 @@
 ---
-title: ブログ作りましたー
+title: ブログ作りました
 published: 2020-02-06
 images: "images/first.jpg"
 ---

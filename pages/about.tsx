@@ -36,11 +36,11 @@ export default function Home(props) {
       <div className="border-blue-400 border-2 w-16 mr-auto ml-auto  mt-7"></div>
       </div>
       </div>
-      <h2 className="text-center text-2xl mr-3 mt-5">明治大学情報コミュニケーション学部２年</h2>
-      <h2 className="text-center text-2xl mr-3 mt-5">Webエンジニアになりたいと考えている学生</h2>
-      <h2 className="text-center text-3xl mr-3 mt-10">資格</h2>
-      <h2 className="text-center text-2xl mr-3 mt-5">TOEIC (L) 455 (R) 360</h2>
-      <h2 className="text-center text-2xl mr-3 mt-5">空手初段(実は...)</h2>
+      <p className="text-center text-xl mr-3 mt-5">明治大学情報コミュニケーション学部２年</p>
+      <p className="text-center text-xl mr-3 mt-5">Webエンジニアになりたいと考えている学生</p>
+      <h2 className="text-center text-2xl mr-3 mt-10">資格</h2>
+      <p className="text-center text-xl mr-3 mt-5">TOEIC (L) 455 (R) 360</p>
+      <p className="text-center text-xl mr-3 mt-5">空手初段(実は...)</p>
 
 
 
