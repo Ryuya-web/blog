@@ -43,7 +43,7 @@ export default class ContactForm extends React.Component<Props, State> {
                 'お問い合わせ内容:\n' + description       
       }
       
-      const url = ''
+      const url = 'https://hooks.slack.com/services/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'
 
       fetch(url, {
           method: 'POST',
