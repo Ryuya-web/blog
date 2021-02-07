@@ -2,11 +2,14 @@
 title: 今までの振り返り
 published: 2020-02-06
 images: "images/2020.jpg"
+
 ---
 
 <span style="font-size: 150%;">去年の話</span>
 ***
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <br>
+
 去年は今までに経験したことのない年でした（笑）<br>
 まさか大学に一年行けなくなるとは... 東京オリンピックも中止...(サッカーのチケット当たってたのに...)<br>
 一年前は全く想像できませんでした。自分は何をしてたかというと率直にいってかなり無駄にしてしまったなという感じですね...
@@ -30,11 +33,11 @@ images: "images/2020.jpg"
 それで辞めることを決意しましたが親から次のバイトが決まるまで絶対ダメだと言われてしまったため
 新しいバイト先を探し始めました。頑張って探して某有名プログラミングスクールでメンターとして働くことが
 でき、よかったと思います。でも働くといっても技術的なことが必要なのでそこのカリキュラムをひーひー言いながらやってましたね。
-<br>
+
 そこのバ先に同じクラスの二浪のおっさんが偶然入ってたのでびっくりしました！（笑）
 <br>
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">248日前の僕です。 <a href="https://t.co/OdStNDm4ow">pic.twitter.com/OdStNDm4ow</a></p>&mdash; kmly (@kmly267) <a href="https://twitter.com/kmly267/status/1343148278443982849?ref_src=twsrc%5Etfw">December 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<br>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">248日前の僕です。 <a href="https://t.co/OdStNDm4ow">pic.twitter.com/OdStNDm4ow</a></p>&mdash; kmly (@kmly267) <a href="https://twitter.com/kmly267/status/1343148278443982849?ref_src=twsrc%5Etfw">December 27, 2020</a></blockquote>
+
 つまらんツイートしかしないしマジで頭おかしい...
 
 <br>
@@ -74,7 +77,7 @@ images: "images/2020.jpg"
 <br>
 このころから英語の勉強始めたりしてた。grammer in use っていう海外の文法書やってたりだらだらした。<br>
 あと初の万バズを経験。実はこのあとテレビにも出た（笑）初の地上波デビューした
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">なんでバカみたいに高い学費払って質の低い授業ばっか受けさせられて出すだけの字数稼ぎのレポート追われてなきゃいけないんだよ<br>GoToキャンペーンで地方行くのが良くて何で大学行っちゃいけないんだ<a href="https://twitter.com/hashtag/%E5%A4%A7%E5%AD%A6%E7%94%9F%E3%81%AE%E6%97%A5%E5%B8%B8%E3%82%82%E5%A4%A7%E4%BA%8B%E3%81%A0?src=hash&amp;ref_src=twsrc%5Etfw">#大学生の日常も大事だ</a></p>&mdash; り (@himajin_de_su) <a href="https://twitter.com/himajin_de_su/status/1283386359453896710?ref_src=twsrc%5Etfw">July 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">なんでバカみたいに高い学費払って質の低い授業ばっか受けさせられて出すだけの字数稼ぎのレポート追われてなきゃいけないんだよ<br>GoToキャンペーンで地方行くのが良くて何で大学行っちゃいけないんだ<a href="https://twitter.com/hashtag/%E5%A4%A7%E5%AD%A6%E7%94%9F%E3%81%AE%E6%97%A5%E5%B8%B8%E3%82%82%E5%A4%A7%E4%BA%8B%E3%81%A0?src=hash&amp;ref_src=twsrc%5Etfw">#大学生の日常も大事だ</a></p>&mdash; り (@himajin_de_su) <a href="https://twitter.com/himajin_de_su/status/1283386359453896710?ref_src=twsrc%5Etfw">July 15, 2020</a></blockquote> 
 <br>
 8月
 <br>
@@ -84,7 +87,7 @@ Toeicも抽選でなかなか受からず一年間で一番だらだらしてた
 9月
 <br>
 北海道、四泊五日一人旅してた。楽しかったー
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">一人旅、キモチェ〜〜!!! <a href="https://t.co/2Q89z3mOmK">pic.twitter.com/2Q89z3mOmK</a></p>&mdash; り (@himajin_de_su) <a href="https://twitter.com/himajin_de_su/status/1304722114537086977?ref_src=twsrc%5Etfw">September 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">一人旅、キモチェ〜〜!!! <a href="https://t.co/2Q89z3mOmK">pic.twitter.com/2Q89z3mOmK</a></p>&mdash; り (@himajin_de_su) <a href="https://twitter.com/himajin_de_su/status/1304722114537086977?ref_src=twsrc%5Etfw">September 12, 2020</a></blockquote> 
 <br>
 10月
 <br>
@@ -96,7 +99,7 @@ TOEICの勉強してた気がする。自分は地頭がよろしくない方な
 <br>
 TOEIC受けた。手ごたえがめちゃくちゃ悪く、また受けないとなって思ってた。800点越えてたのはうれしかったけど
 時間使いすぎた。何かをやって結果をだしたのはいい経験になった。
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">約一年で160点上げました<br>次は900点とれるようにします <a href="https://t.co/0dD72pI1Np">pic.twitter.com/0dD72pI1Np</a></p>&mdash; り (@himajin_de_su) <a href="https://twitter.com/himajin_de_su/status/1334337736631746560?ref_src=twsrc%5Etfw">December 3, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">約一年で160点上げました<br>次は900点とれるようにします <a href="https://t.co/0dD72pI1Np">pic.twitter.com/0dD72pI1Np</a></p>&mdash; り (@himajin_de_su) <a href="https://twitter.com/himajin_de_su/status/1334337736631746560?ref_src=twsrc%5Etfw">December 3, 2020</a></blockquote> 
 <br>
 12月
 <br>

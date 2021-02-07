@@ -3,7 +3,6 @@ import Link from "next/link"
 import Layout from "../components/Layout"
 import {GithubIcon,TwitterIcon,EmailIcon,ProfileIcon} from "../components/icons"
 export default function Home(props) {
-  const { posts, hasArchive } = props
 
   return (
     <Layout title="">
@@ -41,8 +40,6 @@ export default function Home(props) {
       <h2 className="text-center text-2xl mr-3 mt-10">資格</h2>
       <p className="text-center text-xl mr-3 mt-5">TOEIC (L) 455 (R) 360</p>
       <p className="text-center text-xl mr-3 mt-5">空手初段(実は...)</p>
-
-
 
     </Layout>
   )

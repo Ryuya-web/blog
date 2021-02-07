@@ -8,6 +8,8 @@ const Layout = (props) => {
       <Head>
         <title>{title ? `${title} | ${siteTitle}` : siteTitle}</title>
         <link rel="icon" href="/images/profile.png" />
+        <meta name="Description" content="kodakku.com"></meta>
+        <script defer src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Head>
       <header className="shadow bg-white w-full fixed h-12 	z-10 -mt-20">
         <Header />

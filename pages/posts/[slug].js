@@ -9,7 +9,7 @@ export default function Post(params) {
       <div className="post-title text-3xl">
         <span>{params.title}</span>
       </div>
-  
+      
       <div className="post-meta">
         <span>{params.published}</span>
       </div>
